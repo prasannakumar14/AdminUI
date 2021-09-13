@@ -8,7 +8,6 @@ const apiUrl =
 class App extends Component {
   state = {
     entrieslist: [],
-    check: false,
     show: "",
     value: "",
     Name: "",
