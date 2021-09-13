@@ -1,0 +1,53 @@
+.list-items {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.entries-list-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.entries-names-container1 {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.entries {
+  padding-left: 100px;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.trash-icons {
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+}
+
+.box1 {
+  width: 25%;
+  text-align: start;
+  padding-left: 100px;
+}
+.button-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.change-button {
+  color: black;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+  width: 80px;
+}
